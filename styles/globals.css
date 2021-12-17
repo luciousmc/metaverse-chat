@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'lobster';
+    src: url('/fonts/lobster.regular.ttf');
+  }
+  @font-face {
+    font-family: 'AUTOMANI';
+    src: url('/fonts/AUTOMANI.TTF');
+  }
+  @font-face {
+    font-family: 'BadMofo';
+    src: url('/fonts/BadMofo.ttf');
+  }
+  @font-face {
+    font-family: 'Strenuous Black';
+    src: url('/fonts/strenuous-bl.ttf');
+  }
+}
+
+@layer components {
+  .loginTitle {
+    font-family: 'Strenuous Black';
+    font-size: 8rem;
+    line-height: 1.2ch;
+    color: white;
+    text-align: center;
+    perspective: 800px;
+  }
+
+  .loginTitle > * {
+    background: -webkit-linear-gradient(
+      #5c9aa1,
+      #f0d192,
+      #d9984e,
+      #b3604b,
+      #47372e
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkist-text-stroke-color: #f0d192;
+    transform: rotateX(45deg);
+  }
+}

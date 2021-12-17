@@ -28,16 +28,16 @@ function Login() {
 
         <button
           onClick={authenticate}
-          className='bg-yellow-500 rounded-lg p-5 font-bold animate-pulse'
+          className='bg-yellow-500 rounded-lg py-4 w-36 font-bold animate-pulse'
         >
-          Login to the Metaverse
+          Login
         </button>
       </div>
       <div className='w-full h-full relative transition duration-500 ease-linear'>
         <Image
-          className=''
-          // src='https://links.papareact.com/55n'
-          src='/hallway-bg.jpg'
+          className='saturate-25'
+          src='https://links.papareact.com/55n'
+          // src='/hallway-bg.jpg'
           objectFit='cover'
           layout='fill'
           alt='Futuristic Background'

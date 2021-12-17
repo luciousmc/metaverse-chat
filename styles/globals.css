@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* prettier-ignore */
+#root {
+  --clr-teal:         #5c9aa1;
+  --clr-pale-yellow:  #f0d192;
+  --clr-gold:         #d9984e;
+  --clr-dark-orange:  #b3604b;
+  --clr-dark-brown:   #47372e;
+}
+
 @layer base {
   @font-face {
     font-family: 'lobster';
@@ -41,8 +50,8 @@
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkist-text-stroke-color: #f0d192;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: whitesmoke;
     transform: rotateX(45deg);
   }
 }

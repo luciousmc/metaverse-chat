@@ -4,7 +4,12 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      saturate: {
+        25: '.25',
+        10: '.1',
+      },
+    },
   },
   plugins: [],
 };

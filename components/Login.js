@@ -28,7 +28,7 @@ function Login() {
 
         <button
           onClick={authenticate}
-          className='bg-yellow-500 rounded-lg py-4 w-36 font-bold animate-pulse'
+          className='bg-pale-yellow rounded-lg py-4 w-36 font-bold animate-pulse'
         >
           Login
         </button>

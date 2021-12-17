@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* prettier-ignore */
-#root {
+:root {
   --clr-teal:         #5c9aa1;
   --clr-pale-yellow:  #f0d192;
   --clr-gold:         #d9984e;

@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'pale-yellow': 'var(--clr-pale-yellow)',
+      },
       saturate: {
         25: '.25',
         10: '.1',

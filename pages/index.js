@@ -19,13 +19,6 @@ export default function Home() {
         <Header />
 
         {/* Chat */}
-
-        <button
-          className='bg-yellow-400 rounded-lg p-4 mt-5 font-bold'
-          onClick={logout}
-        >
-          Logout!
-        </button>
       </div>
     </div>
   );

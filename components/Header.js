@@ -1,12 +1,13 @@
 import Image from 'next/image';
 import { useMoralis } from 'react-moralis';
 import Avatar from './Avatar';
+import ChangeUser from './ChangeUser';
 
 function Header() {
   const { user } = useMoralis();
 
   return (
-    <div>
+    <div className='text-pink-500'>
       <div>
         <div className='relative w-24 h-24 hidden lg:inline-grid'>
           <Image
@@ -19,9 +20,10 @@ function Header() {
         <div>
           <Avatar logoutOnPress />
 
-          {/* Welcom Message */}
+          <h1 className='text-3xl'>Metaverse Chat!</h1>
+          <h2 className='text-5xl font-bold truncate'>{user.getUsername()}</h2>
 
-          {/* Change Username */}
+          <ChangeUser />
         </div>
       </div>
     </div>
